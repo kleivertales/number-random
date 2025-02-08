@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <img src="./dado.png" atl="dado -sorteio">
+    <main>
+        <h1>Sorteio do Kleiver</h1>
+        <h3>Sortear um numero</h3>
+
+        <div class="grupo-nome">
+            <input class="input-min" required type="number" id="nome">
+            <label for="nome">Entre</label>
+    
+            <input class="input-max" required type="number" id="nome-2">
+            <label class="n" for="nome-2">E</label>
+        </div>
+
+        <button onclick="generateNumber()">Sortear</button>
+    </main>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
